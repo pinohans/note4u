@@ -73,4 +73,5 @@ $ (dev) git pull origin master:master # 更新本地master，当然也可以不�
 $ (dev) git merge master 
 # 解决conflict后，如果没有冲突会让你直接输入commit的消息
 $ (dev) git add -A && git commit -m '提交merge版本' # 把工作区文件/文件夹提交到暂存区
+$ (dev) git push origin dev:production # 推送到远程production分支
 ```
